@@ -1,0 +1,80 @@
+
+@font-face {
+    font-family: 'candy';
+    src: url(fonts/EmilysCandy-Regular.ttf);
+    font-style: normal;
+}
+
+
+body{
+    background-image: url(images/background.png);
+    background-size: cover;
+    height: 100px;
+    padding:0;
+    margin:0;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-family: 'candy';
+    -webkit-text-fill-color: white; 
+    -webkit-text-stroke-width: .1px;
+    -webkit-text-stroke-color: black;
+ 
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'candy';
+    font-size: 30px;
+    -webkit-text-fill-color: white; 
+    -webkit-text-stroke-width: .1px;
+    -webkit-text-stroke-color: black;
+}
+
+a { 
+    color: white;
+    font-family: 'candy';
+    font-size: 20px;
+    padding: 5px;
+ }
+
+
+#flexcontainer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#top {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    }
+
+.right {
+    margin-right: 15px;
+    display: flex;
+    justify-content: flex-end3;
+
+}
+
+#left {
+    margin-left: 15px;
+    color: white;
+    font-family: 'candy';
+    font-size: 25px;
+
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    margin-top: 175px;
+
+}
